@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Tailwind v4 theme tokens for custom colors and fonts used in LandingPage */
+@theme {
+  --color-primary: #cc0000;
+  --color-background-light: #ffffff;
+  --color-background-dark: #111111;
+  --color-text-light: #111111;
+  --color-text-dark: #f8f5f5;
+  --color-secondary-text-light: #666666;
+  --color-secondary-text-dark: #999999;
+
+  --font-display: "Plus Jakarta Sans", "Noto Sans", sans-serif;
+}
+
+/* Base font and smooth rendering */
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color-scheme: light dark;
+}
+
+/* Material Symbols variable font settings */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+html, body, #root { height: 100%; }
+body { background: white; }
