@@ -1,5 +1,3 @@
-import React from 'react'
-
 type TeamCardProps = {
   name: string
   role: string

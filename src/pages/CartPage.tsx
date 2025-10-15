@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import SectionTitle from '../components/SectionTitle'
 import AboutHero from '../components/about/AboutHero'
 import { Link, useNavigate } from 'react-router-dom'
